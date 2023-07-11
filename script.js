@@ -121,16 +121,16 @@ cardContainer.addEventListener("scroll", () => {
   });
 });
 
-const contact = document.getElementById("contact");
-const footer = document.getElementById("footer");
-const mail = document.getElementById("mail");
+// const contact = document.getElementById("contact");
+// const footer = document.getElementById("footer");
+// const mail = document.getElementById("mail");
 
-contact.addEventListener("click", () => {
-  if (mail.style.display === "none") {
-    mail.style.display = "flex";
-    contact.classList.add("underline");
-  } else {
-    mail.style.display = "none";
-    contact.classList.remove("underline");
-  }
-});
+// contact.addEventListener("click", () => {
+//   if (mail.style.display === "none") {
+//     mail.style.display = "flex";
+//     contact.classList.add("underline");
+//   } else {
+//     mail.style.display = "none";
+//     contact.classList.remove("underline");
+//   }
+// });
